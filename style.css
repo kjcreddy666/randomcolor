@@ -1,0 +1,30 @@
+body {
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width : 600px;
+  height : 450px;
+  margin : 30px auto;
+}
+
+div {
+  width : 550px;
+  height : 200px;
+  font-size: 1.5rem;
+  border : 2px solid black;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height : 2.5rem;
+  width : fit-content;
+  border-radius: 1rem;
+  border: none;
+  padding : 0 1.25rem;
+  cursor: pointer;
+  background-color: aqua;
+}
