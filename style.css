@@ -29,3 +29,9 @@ button {
   cursor: pointer;
   background-color: aqua;
 }
+
+@media(max-width : 575px) {
+  div,body {
+    width : 100vw;
+  }
+}
